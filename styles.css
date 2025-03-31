@@ -3,7 +3,7 @@
     color: white;
 }
 
-img{
+#myphoto{
     height: 280px;
     width: 290px;
     border-radius: 50%;
@@ -20,4 +20,26 @@ img{
     max-width: 100%;
     font-weight: bolder;
     color: #8A2BE2;
+}
+
+#project1, #project2, #project3, #project4, #project5, #project6{
+    height: 80px;
+    width: 140px;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+}
+
+a{
+    color: #8A2BE2;
+}
+
+.project{
+    border: 1px solid #8A2BE2;
+    width: 180px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
 }
