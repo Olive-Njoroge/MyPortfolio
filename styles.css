@@ -32,6 +32,15 @@ h1{
     margin-top: 35px;
 }
 
+#about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+    max-width: 500px;
+}
+
 .cv{
     border: 1px solid blueviolet;
     border-radius: 18px;
@@ -42,6 +51,14 @@ h1{
     max-width: 100%;
     font-weight: bolder;
     color: #8A2BE2;
+    max-width: 80%;
+}
+
+.cv:hover{
+    background-color: white;
+    color: #8A2BE2;
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 #project1, #project2, #project3, #project4, #project5, #project6{
