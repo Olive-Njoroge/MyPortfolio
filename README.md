@@ -5,4 +5,8 @@ Features
 Responsive design for all devices
 Showcases my projects and skills
 Downloadable CV
-Contact section for inquiries**
+Contact section for inquiries
+
+Tech Stack
+Frontend: HTML, CSS
+Hosting: Netlify
