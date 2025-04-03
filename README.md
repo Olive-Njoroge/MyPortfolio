@@ -1,3 +1,2 @@
 ﻿# MyPortfolio
-This Portfolio basically covers whom I am with an about section that talks about what I do.
-There's also my education background and skill set.
+Welcome to my portfolio! This project showcases my skills, projects, and experience in web development.
