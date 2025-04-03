@@ -10,3 +10,6 @@ Contact section for inquiries
 Tech Stack
 Frontend: HTML, CSS
 Hosting: Netlify
+
+🔗 Live Demo
+https://porfolio-own.netlify.app/
