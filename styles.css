@@ -135,7 +135,7 @@ section {
     border-radius: 5px;
     flex: 1;
     min-width: 250px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.823);
     box-shadow: 3px 0.5px 5px 3px #8A2BE2;
     color: #8A2BE2;
     padding: 15px;
