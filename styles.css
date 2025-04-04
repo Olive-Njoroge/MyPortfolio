@@ -115,41 +115,63 @@ section {
     transform: scale(1.1);
 }
 
-/* Education, Skills, Certificates Section */
+/* Education, Skills, Certificates, Interests Section */
 .edu-skills-certs {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
     padding: 20px 0;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #skills,
 #education,
-#certificates {
+#certificates,
+.interests {
     border-radius: 5px;
     flex: 1;
-    min-width: 250px;
+    min-width: 200px;
+    max-width: calc(25% - 12px);
+    /* Reduced width to fit 4 items in a row */
     background-color: white;
     box-shadow: 3px 0.5px 5px 3px #8A2BE2;
     color: #8A2BE2;
-    padding: 15px;
+    padding: 12px;
     margin-bottom: 20px;
+    font-size: 0.95rem;
+    /* Slightly smaller font to fit content */
 }
 
 #skills h2,
 #education h2,
-#certificates h2 {
+#certificates h2,
+.interests h2 {
     text-align: center;
+    font-size: 1.3rem;
+    /* Smaller heading */
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 li {
     list-style-type: none;
-    padding: 8px 0;
+    padding: 6px 0;
+    /* Reduced padding */
 }
 
 ul {
-    padding-left: 15px;
+    padding-left: 10px;
+    /* Reduced padding */
+    margin-top: 5px;
+}
+
+.interests p {
+    margin: 6px 0;
+    /* Reduced margin for interest paragraphs */
+    font-size: 0.9rem;
+    /* Slightly smaller font */
 }
 
 /* Projects Section */
@@ -165,7 +187,7 @@ ul {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
     justify-content: center;
 }
@@ -207,7 +229,7 @@ ul {
     font-weight: bold;
     margin-top: auto;
     padding: 5px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .project a:hover {
@@ -259,6 +281,17 @@ hr {
 }
 
 /* Media Queries for Responsiveness */
+@media (max-width: 1100px) {
+
+    #skills,
+    #education,
+    #certificates,
+    .interests {
+        max-width: calc(50% - 10px);
+        /* 2 items per row on medium screens */
+    }
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.8rem;
@@ -279,6 +312,14 @@ hr {
 
     .edu-skills-certs {
         flex-direction: column;
+    }
+
+    #skills,
+    #education,
+    #certificates,
+    .interests {
+        max-width: 100%;
+        /* Full width on mobile */
     }
 
     .navigations {
