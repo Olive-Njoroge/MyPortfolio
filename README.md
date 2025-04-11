@@ -24,3 +24,4 @@ Hosting: Netlify
 🔗 Live Demo
 https://porfolio-own.netlify.app/
 😁
+More updates coming
